@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (successs)
  */
-int main()
+int main(void)
 {
 	int n = 1;
 	int d1;
