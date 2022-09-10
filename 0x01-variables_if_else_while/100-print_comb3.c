@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main(void)
+/**
+ * main  - prints numbers between 00 to 99.
+ *
+ * Return: Always 0 (successs)
+ */
+int main()
 {
 	int n = 1;
 	int d1;
