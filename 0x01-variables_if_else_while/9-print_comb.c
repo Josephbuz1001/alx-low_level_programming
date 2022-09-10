@@ -15,7 +15,7 @@ int main()
 	for (num = 0; num <= 9; num++) {
 		putchar(num + '0');
 		if (num == 9)
-			contunue;
+			continue;
 		putchar(',');
 		putchar(' ');
 	}
