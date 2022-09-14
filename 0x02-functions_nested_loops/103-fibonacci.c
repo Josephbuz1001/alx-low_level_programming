@@ -23,6 +23,6 @@ int main(void)
 			afn += n1;
 		}
 	}
-	printf("%dl", n1, n2, fn, afn);
+	printf("%dl\n", n1, n2, fn, afn);
 	return (0);
 }
