@@ -1,26 +1,26 @@
 #include <stdio.h>
 /**
- * print_to_98 - prints all natural numbers from j to 98.
- * @j: input number.
+ * print_to_98 - prints all natural numbers from n to 98.
+ * @n: input number.
  * Return: o return
  */
 
-void print_to_98(int j)
+void print_to_98(int n)
 {
-	if (j > 98)
+	if (n > 98)
 	{
 
-		for (; j > 98; j--);
+		for (; n > 98; n--)
 		{
-			printf("%d, ", j);
+			printf("%d, ", n);
 		}
 	}
-	else if (j < 98)
+	else if (n < 98)
 	{
-		for (; j < 98; j++)
+		for (; n < 98; n++)
 		{
-			printf("%d, ", j);
+			printf("%d, ", n);
 		}
 	}
-	printf("%d\n", j);
+	printf("%d\n", n);
 }
