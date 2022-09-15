@@ -2,10 +2,8 @@
 
 /**
  * main - finds and prints the sum of even-valued terms.
- *
  * Return: 0
  */
-
 int main(void)
 {
 	long int n1, n2, fn, afn;
@@ -22,6 +20,7 @@ int main(void)
 		{
 			afn += n1;
 		}
+
 	}
 	printf("%dl\n", long int);
 	return (0);
