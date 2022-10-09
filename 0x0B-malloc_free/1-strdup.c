@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * _strdup - returns a pointeeeeer to a newly allocated space in memory.
+ * _strdup - returns a pointeeeeeer to a newly allocated space in memory.
  * @str: string
  *
- * Return: pointer of an array of char
+ * Return: pointer of an array of chars
  */
 
 char *_strdup(char *str)
 {
 	char *strout;
-	unsigned int i; j;
+	unsigned int i, j;
 
 	if (str == NULL)
 		return (NULL);
